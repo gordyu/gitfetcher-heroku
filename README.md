@@ -1,2 +1,1 @@
-# gitfetcher-local
 # gitfetcher-heroku
