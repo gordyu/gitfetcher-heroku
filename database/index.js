@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 //mongoose.connect('mongodb://127.0.0.1/fetcher', {useNewUrlParser: true});  For local, comment line 3, uncomment line 2.
-mongoose.connect(proccess.env.MONGODB_URI); //See https://devcenter.heroku.com/articles/mongolab#getting-your-connection-uri and App -> Settings -> Config Vars
+mongoose.connect(process.env.MONGODB_URI); //See https://devcenter.heroku.com/articles/mongolab#getting-your-connection-uri and App -> Settings -> Config Vars
 
 let db = mongoose.connection;
 
